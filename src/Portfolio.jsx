@@ -55,7 +55,7 @@ const projects = [
     description:
       "A hotel booking and management system with room availability, reservations, and an admin dashboard, deployed on Render.",
     stack: ["Node.js", "MongoDB"],
-    image: "src/assets/hotel.png",
+    image: hotel,
     github: "https://github.com/ParulGautam2706/hotel",
     demo: "https://stayease-j55n.onrender.com",
   },
@@ -64,7 +64,7 @@ const projects = [
     description:
       "A personal AI assistant inspired by Jarvis, capable of voice commands, task automation, and smart responses using Python and AI APIs.",
     stack: ["Python", "Speech Recognition", "AI APIs", "Automation"],
-    image: "src/assets/jarvis.gif",
+    image: jarvis,
     github: "https://github.com/ParulGautam2706/AI-Jarvis",
     demo: "https://jarvis2706.netlify.app/",
   },
@@ -73,7 +73,7 @@ const projects = [
     description:
       "A responsive photo gallery web app with image browsing, filtering, and a clean grid layout for showcasing collections.",
     stack: ["HTML", "CSS", "JavaScript"],
-    image: "src/assets/photo-gallery.png",
+    image: photo-gallery,
     github: "https://github.com/ParulGautam2706/photo-gallery-app",
     demo: "https://photot-gallery-1001.netlify.app/",
   },
