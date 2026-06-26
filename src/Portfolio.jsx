@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
 import stayease from './assets/stayease.png'
 import phishingDetector from "./assets/phishingDetector.png";
-import aiJarvis from './assets/aijarvis.png'
+import aijarvis from './assets/aijarvis.png'
 import photoGallery from './assets/photo-gallery.png'
 
 const skills = [
