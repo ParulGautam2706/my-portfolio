@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
-import stayease from './assets/hotel.png'
+import stayease from './assets/stayease.png'
 import phishingDetector from "./assets/phishingDetector.png";
 import aiJarvis from './assets/jarvis.png'
 import photoGallery from './assets/photo-gallery.png'
@@ -55,7 +55,7 @@ const projects = [
     description:
       "A hotel booking and management system with room availability, reservations, and an admin dashboard, deployed on Render.",
     stack: ["Node.js", "MongoDB"],
-    image: hotel,
+    image: stayease,
     github: "https://github.com/ParulGautam2706/hotel",
     demo: "https://stayease-j55n.onrender.com",
   },
