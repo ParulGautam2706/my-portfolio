@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
+import shopease from './assets/shopEase.png'
+import stayease from './assets/hotel.png'
+import phishingDetector from './assets/phishing-detection.png'
+import aiJarvis from './assets/jarvis.png'
+import photoGallery from './assets/photo-gallery.png'
 
 const skills = [
   {
