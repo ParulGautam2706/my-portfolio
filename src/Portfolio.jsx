@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
 import stayease from './assets/stayease.png'
 import phishingDetector from "./assets/phishingDetector.png";
-import aiJarvis from './assets/jarvis.png'
+import aiJarvis from './assets/aijarvis.png'
 import photoGallery from './assets/photo-gallery.png'
 
 const skills = [
@@ -64,7 +64,7 @@ const projects = [
     description:
       "A personal AI assistant inspired by Jarvis, capable of voice commands, task automation, and smart responses using Python and AI APIs.",
     stack: ["Python", "Speech Recognition", "AI APIs", "Automation"],
-    image: jarvis,
+    image: aijarvis,
     github: "https://github.com/ParulGautam2706/AI-Jarvis",
     demo: "https://jarvis2706.netlify.app/",
   },
