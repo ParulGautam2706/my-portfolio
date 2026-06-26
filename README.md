@@ -42,12 +42,6 @@ Open `Portfolio.jsx` and edit:
 ```bash
 npm run dev
 ```
-
-## 6. Deploy to Vercel
-```bash
-npm install -g vercel
-vercel
-```
 Or connect your GitHub repo directly at vercel.com — Vercel auto-detects Vite/React and deploys on every push.
 
 ## Notes
