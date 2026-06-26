@@ -36,7 +36,7 @@ const projects = [
     description:
       "A hybrid machine learning system that classifies URLs as phishing or legitimate using a combination of lexical, host-based, and content features, deployed as a full-stack web app.",
     stack: ["Python", "scikit-learn", "Flask"],
-    image: "src/assets/phishing-detection.png",
+    image: phishingDetectoion,
     github: "https://github.com/ParulGautam2706/Phishing-Detection",
     demo: "https://phishing-detection-og43.onrender.com",
   },
@@ -46,7 +46,7 @@ const projects = [
     description:
       "A full-stack e-commerce app with product catalog, cart, checkout, and auth, deployed on Render with a MERN stack backend.",
     stack: ["MongoDB", "Express", "React", "Node.js"],
-    image: "src/assets/shopEase.png",
+    image: shopEase,
     github: "https://github.com/ParulGautam2706/snazzymart",
     demo: "",
   },
