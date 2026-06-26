@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
 import stayease from './assets/hotel.png'
-import phishingDetection from "./assets/phishing-detection.png";
+import phishingDetector from "./assets/phishingDetector.png";
 import aiJarvis from './assets/jarvis.png'
 import photoGallery from './assets/photo-gallery.png'
 
@@ -36,7 +36,7 @@ const projects = [
     description:
       "A hybrid machine learning system that classifies URLs as phishing or legitimate using a combination of lexical, host-based, and content features, deployed as a full-stack web app.",
     stack: ["Python", "scikit-learn", "Flask"],
-    image: phishingDetectoion,
+    image: phishingDetector,
     github: "https://github.com/ParulGautam2706/Phishing-Detection",
     demo: "https://phishing-detection-og43.onrender.com",
   },
@@ -46,7 +46,7 @@ const projects = [
     description:
       "A full-stack e-commerce app with product catalog, cart, checkout, and auth, deployed on Render with a MERN stack backend.",
     stack: ["MongoDB", "Express", "React", "Node.js"],
-    image: shopEase,
+    image: shopease,
     github: "https://github.com/ParulGautam2706/snazzymart",
     demo: "",
   },
