@@ -4,7 +4,7 @@ import shopease from './assets/shopEase.png'
 import stayease from './assets/stayease.png'
 import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
-import photoGallery from './assets/photo-gallery.png'
+import photoGallery from './assets/photoGallery.png'
 
 const skills = [
   {
@@ -69,11 +69,11 @@ const projects = [
     demo: "https://jarvis2706.netlify.app/",
   },
   {
-    title: "Photo Gallery App",
+    title: "PhotoGallery App",
     description:
       "A responsive photo gallery web app with image browsing, filtering, and a clean grid layout for showcasing collections.",
     stack: ["HTML", "CSS", "JavaScript"],
-    image: photo-gallery,
+    image: photoGallery,
     github: "https://github.com/ParulGautam2706/photo-gallery-app",
     demo: "https://photot-gallery-1001.netlify.app/",
   },
