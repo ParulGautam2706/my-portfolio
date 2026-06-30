@@ -48,7 +48,7 @@ const projects = [
     stack: ["MongoDB", "Express", "React", "Node.js"],
     image: shopease,
     github: "https://github.com/ParulGautam2706/snazzymart",
-    demo: "",
+    demo: "https://sparkling-puffpuff-d22842.netlify.app",
   },
   {
     title: "StayEase — Hotel Management System",
