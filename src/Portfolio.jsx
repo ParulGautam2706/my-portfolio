@@ -60,6 +60,15 @@ const projects = [
     demo: "https://stayease-j55n.onrender.com",
   },
   {
+  title: "EcoScale — AI-Powered Cloud Cost & Carbon Optimizer",
+  description:
+    "A full-stack cloud cost and carbon footprint optimizer that clusters resource utilization with KMeans, flags waste, and simulates cost/CO₂ savings from optimization actions, deployed on Render.",
+  stack: ["Flask", "React", "scikit-learn"],
+  image: ecoscale,
+  github: "https://github.com/ParulGautam2706/ecoscale",
+  demo: "https://ecoscale-1.onrender.com",
+},
+  {
     title: "AI Jarvis",
     description:
       "A personal AI assistant inspired by Jarvis, capable of voice commands, task automation, and smart responses using Python and AI APIs.",
