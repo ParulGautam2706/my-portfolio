@@ -85,7 +85,7 @@ const projects = [
     stack: ["HTML", "CSS", "JavaScript"],
     image: photoGallery,
     github: "https://github.com/ParulGautam2706/photo-gallery-app",
-    demo: "https://photot-gallery-1001.netlify.app/",
+    demo: "https://photot-gallery-1001.netlify.app",
   },
 ];
 
