@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
 import stayease from './assets/stayease.png'
-import ecoscale from '../assets/ecoscale-preview.png';
+import ecoscale from '../assets/ecoscale.png';
 import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
 import photoGallery from './assets/photoGallery.png'
