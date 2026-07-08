@@ -76,7 +76,7 @@ const projects = [
     stack: ["Python", "Speech Recognition", "AI APIs", "Automation"],
     image: aijarvis,
     github: "https://github.com/ParulGautam2706/AI-Jarvis",
-    demo: "https://jarvis2706.netlify.app/",
+    demo: "https://jarvis2706.netlify.app",
   },
   {
     title: "PhotoGallery App",
