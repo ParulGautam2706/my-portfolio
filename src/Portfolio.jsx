@@ -6,7 +6,15 @@ import ecoscale from './assets/ecoscale.png';
 import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
 import photoGallery from './assets/photoGallery.png'
-
+import alfido from "./assets/Alfido.jpeg";
+import codsoft from "./assets/codsoft.jpeg";
+import deloitte from "./assets/deloitte.jpeg";
+import hpLife from "./assets/hp.jpeg";
+import internshala from "./assets/intershala.jpeg";
+import naukriCampus from "./assets/naukri.jpeg";
+import outrix from "./assets/outrix.jpeg";
+import passportAI from "./assets/passport.jpeg";
+import scoa from "./assets/S.C.O.A.jpeg";
 const skills = [
   {
     category: "Languages",
@@ -120,6 +128,72 @@ const timeline = [
   },
 ];
 
+const certificates = [
+  {
+    title: "Data Analytics Internship",
+    issuer: "Alfido Tech",
+    date: "Aug 2025",
+    image: alfido,
+    link: "",
+  },
+  {
+    title: "C++ Programming Internship",
+    issuer: "CodSoft",
+    date: "Aug 2024",
+    image: codsoft,
+    link: "",
+  },
+  {
+    title: "Cyber Job Simulation",
+    issuer: "Deloitte (Forage)",
+    date: "Jun 2025",
+    image: deloitte,
+    link: "",
+  },
+  {
+    title: "Data Science & Analytics",
+    issuer: "HP LIFE",
+    date: "Oct 2025",
+    image: hpLife,
+    link: "",
+  },
+  {
+    title: "Tata Crucible Campus Quiz",
+    issuer: "Internshala",
+    date: "Nov 2025",
+    image: internshala,
+    link: "",
+  },
+  {
+    title: "Brandquezt #21",
+    issuer: "Naukri Campus",
+    date: "Jun 2025",
+    image: naukriCampus,
+    link: "",
+  },
+  {
+    title: "Cyber Security Internship",
+    issuer: "OutriX",
+    date: "Jul - Sep 2025",
+    image: outrix,
+    link: "",
+  },
+  {
+    title: "Digital Productivity with AI",
+    issuer: "Passport to Earning (UNICEF)",
+    date: "Jul 2025",
+    image: passportAI,
+    link: "",
+  },
+  {
+    title: "SCOA Data Entry Operator Training",
+    issuer: "Flipkart SCOA",
+    date: "Nov 2025",
+    image: scoa,
+    link: "",
+  },
+];
+
 function Nav() {
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -132,6 +206,7 @@ function Nav() {
         <a onClick={() => scrollTo("skills")}>skills</a>
         <a onClick={() => scrollTo("projects")}>projects</a>
         <a onClick={() => scrollTo("experience")}>experience</a>
+        <a onClick={() => scrollTo("certificates")}>certificates</a>
         <a onClick={() => scrollTo("contact")}>contact</a>
       </div>
     </nav>
@@ -154,6 +229,9 @@ function Hero() {
       <div className="pf-hero-btns">
         <a className="pf-btn-primary" onClick={() => scrollTo("projects")}>
           View Projects
+        </a>
+        <a className="pf-btn-outline" onClick={() => scrollTo("certificates")}>
+          View Certificates
         </a>
         <a className="pf-btn-outline" onClick={() => scrollTo("contact")}>
           Get in Touch
@@ -325,6 +403,46 @@ function Experience() {
   );
 }
 
+function Certificates() {
+  return (
+    <section className="pf-section" id="certificates">
+      <p className="pf-section-label">// 05 — Certificates</p>
+
+      <h2 className="pf-section-title">
+        My Certifications
+      </h2>
+
+      <div className="pf-cert-grid">
+        {certificates.map((cert, index) => (
+          <div className="pf-cert-card" key={index}>
+            <img
+              src={cert.image}
+              alt={cert.title}
+              className="pf-cert-image"
+            />
+
+            <div className="pf-cert-body">
+              <h3>{cert.title}</h3>
+
+              <p>{cert.issuer}</p>
+
+              <p>{cert.date}</p>
+
+              <a
+                href={cert.image}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pf-cert-link"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
@@ -427,17 +545,28 @@ export default function Portfolio() {
   return (
     <div className="pf-root">
       <Nav />
+
       <Hero />
       <hr className="pf-divider" />
+
       <About />
       <hr className="pf-divider" />
+
       <Skills />
       <hr className="pf-divider" />
+
       <Projects />
       <hr className="pf-divider" />
+
       <Experience />
       <hr className="pf-divider" />
+
+      {/* ADD THIS */}
+      <Certificates />
+      <hr className="pf-divider" />
+
       <Contact />
+
       <Footer />
     </div>
   );
