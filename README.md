@@ -1,5 +1,8 @@
 # Santosh's Portfolio — Setup Guide
 
+## Portfolio Link
+   https://sparkling-puffpuff-d22842.netlify.app/
+   
 ## Files
 - `Portfolio.jsx` — the full portfolio component (Hero, About, Skills, Projects, Experience, Contact)
 - `Portfolio.css` — all styling (dark/techy theme, JetBrains Mono + Inter fonts)
