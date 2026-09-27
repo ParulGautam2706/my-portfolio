@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
-import shopease from './assets/shopEase.png'
-import NoorHaveli from './assets/noor-haveli.png'
+import shopease from './assets/shopEase.png';
+import stayease from './assets/stayease.png';
 import ecoscale from './assets/ecoscale.png';
 import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
@@ -60,21 +60,23 @@ const projects = [
     demo: "https://snazzymart-1.onrender.com",
   },
   {
-    title: "NoorHaveli — Hotel Management System",
+    featured: true,
+    title: "StayEase — Hotel Management System",
     description:
       "A hotel booking and management system with room availability, reservations, and an admin dashboard, deployed on Render.",
     stack: ["Node.js", "MongoDB"],
-    image: noor-haveli,
+    image: stayease,
     github: "https://github.com/ParulGautam2706/Noor-haveli",
     demo: "https://noor-haveli.onrender.com",
   },
   {
-  title: "EcoScale — AI-Powered Cloud Cost & Carbon Optimizer",
-  description:
-    "A full-stack cloud cost and carbon footprint optimizer that clusters resource utilization with KMeans, flags waste, and simulates cost/CO₂ savings from optimization actions, deployed on Render.",
-  stack: ["Flask", "React", "scikit-learn"],
-  image: ecoscale,
-  github: "https://github.com/ParulGautam2706/ecoscale",
+    featured: true,
+    title: "EcoScale — AI-Powered Cloud Cost & Carbon Optimizer",
+    description:
+      "A full-stack cloud cost and carbon footprint optimizer that clusters resource utilization with KMeans, flags waste, and simulates cost/CO₂ savings from optimization actions, deployed on Render.",
+    stack: ["Flask", "React", "scikit-learn"],
+    image: ecoscale,
+    github: "https://github.com/ParulGautam2706/ecoscale",
   demo: "https://ecoscale-1.onrender.com",
 },
   {
