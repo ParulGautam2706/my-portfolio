@@ -7,7 +7,6 @@ import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
 import photoGallery from './assets/photoGallery.png'
 import alfido from "./assets/Alfido.jpeg";
-import codsoft from "./assets/codsoft.jpeg";
 import deloitte from "./assets/deloitte.jpeg";
 import hpLife from "./assets/hp.jpeg";
 import internshala from "./assets/intershala.jpeg";
