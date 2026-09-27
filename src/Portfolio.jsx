@@ -60,13 +60,13 @@ const projects = [
     demo: "https://snazzymart-1.onrender.com",
   },
   {
-    title: "StayEase — Hotel Management System",
+    title: "Noor Haveli — Hotel Management System",
     description:
       "A hotel booking and management system with room availability, reservations, and an admin dashboard, deployed on Render.",
     stack: ["Node.js", "MongoDB"],
     image: stayease,
     github: "https://github.com/ParulGautam2706/hotel",
-    demo: "https://stayease-j55n.onrender.com",
+    demo: "https://noor-haveli.onrender.com",
   },
   {
   title: "EcoScale — AI-Powered Cloud Cost & Carbon Optimizer",
