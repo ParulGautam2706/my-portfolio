@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import shopease from './assets/shopEase.png'
-import stayease from './assets/stayease.png'
+import NoorHaveli from './assets/noor-haveli.png'
 import ecoscale from './assets/ecoscale.png';
 import phishingDetector from "./assets/phishingDetector.png";
 import aijarvis from './assets/aijarvis.png'
@@ -60,13 +60,13 @@ const projects = [
     demo: "https://snazzymart-1.onrender.com",
   },
   {
-    title: "StayEase — Hotel Management System",
+    title: "NoorHaveli — Hotel Management System",
     description:
       "A hotel booking and management system with room availability, reservations, and an admin dashboard, deployed on Render.",
     stack: ["Node.js", "MongoDB"],
-    image: stayease,
-    github: "https://github.com/ParulGautam2706/hotel",
-    demo: "https://stayease-j55n.onrender.com",
+    image: noor-haveli,
+    github: "https://github.com/ParulGautam2706/Noor-haveli",
+    demo: "https://noor-haveli.onrender.com",
   },
   {
   title: "EcoScale — AI-Powered Cloud Cost & Carbon Optimizer",
