@@ -138,13 +138,6 @@ const certificates = [
     link: "",
   },
   {
-    title: "C++ Programming Internship",
-    issuer: "CodSoft",
-    date: "Aug 2024",
-    image: codsoft,
-    link: "",
-  },
-  {
     title: "Cyber Job Simulation",
     issuer: "Deloitte (Forage)",
     date: "Jun 2025",
